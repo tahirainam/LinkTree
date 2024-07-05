@@ -29,7 +29,7 @@ body {
 }
 .socials {
     background-color: rgb(17, 15, 15);
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
 }
 .links {
@@ -40,13 +40,20 @@ body {
 }
 
 /*MAIN*/
-main, header {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
+main {
+    background-color: rgb(99, 59, 11);
+    margin: 5%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
     text-align: center; 
     justify-content: center; 
     align-items: center;
+}
+.btns, .header {
+    width: 80%;
+    margin: 0 5%;
 }
 .btns {
     display: flex;
@@ -55,7 +62,7 @@ main, header {
     align-items: center;
     flex-direction: column;
    
-   margin: 10%;
+   margin: 5%;
     
     background-color: aqua;
     padding: 5%;
@@ -75,12 +82,16 @@ button {
     justify-content: center;
     justify-items: center;
     padding: 25px;
-    width: 70%;
+    width: 100%;
     background-color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 .f-text{
     background-color: blueviolet;
     width: 80%;
     padding: 10px;
     text-align: center;
+    margin-bottom: 2px;
 }
