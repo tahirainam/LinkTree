@@ -301,6 +301,7 @@ button:hover {
 }
 
 .f-text {
+    font-size: 19px;
     width: 80%;
     padding: 10px;
     text-align: center;
@@ -361,7 +362,5 @@ button:hover {
         margin-top: auto;
         padding: 15px 10px;
         width: 100%;
-        background-color: #FFE15D;
-        font-size: 20px;
     }
 }
