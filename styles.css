@@ -69,6 +69,7 @@ a:hover {
     font-size: 26px;
     padding: 5px;
     margin: 1px;
+    
 }
 
 i {
@@ -76,8 +77,9 @@ i {
 }
 
 i:hover {
-    color: #B01E68;
+    
     transform: translateY(-4px);
+    
 }
 
 /* MAIN */
@@ -355,7 +357,7 @@ button:hover {
 
     .footer {
         position: relative;
-        bottom: 2;
+        bottom: 0;
         left: 0;
         margin-top: auto;
         padding: 15px 10px;
