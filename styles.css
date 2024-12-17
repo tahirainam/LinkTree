@@ -41,8 +41,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
-    padding: 20px;
+    margin: auto;
+    padding: auto;
 }
 
 .username {
@@ -78,7 +78,7 @@ i {
 
 i:hover {
     color: #B01E68;
-    transform: translateY(-4px);
+    transform: translateY(-4px);transition-duration: 0ms;
 }
 
 /* MAIN */
