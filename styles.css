@@ -1,4 +1,4 @@
-
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,188 +6,51 @@
     font-weight: 200;
     font-style: normal;
     font-size: 26px;
-    color: rgb(90, 3, 3);
-    /*color: #DC3535;*/
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    background-color: #FFE15D;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-}
-
-img {
-    width: 100px;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: rgb(92, 5, 5);
-}
-
-/* HEADER */
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    padding: auto;
-}
-
-.username {
-    font-weight: bold;
-    width: 50%;
-    color: #B01E68;
-    padding: 10px;
-}
-
-.userintro {
-    padding-top: 3%;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.socials {
-    padding: 10px;
-    margin: 10px;
-    color: #F49D1A;
-}
-
-.links {
-    font-size: 26px;
-    padding: 5px;
-    margin: 1px;
-}
-
-i {
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-i:hover {
-    color: #B01E68;
-    transform: translateY(-4px);transition-duration: 0ms;
-}
-
-/* MAIN */
-main {
-    border-radius: 20px;
-    margin: 5%;
-    padding: 5%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.btns,
-.header {
-    width: 80%;
-    margin: 0 5%;
-}
-
-.btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 5%;
-    padding: 5%;
-    width: 70%;
-}
-
-button {
-    border: 1px solid #B01E68;
-    border-radius: 10px;
-    box-shadow: 0 12px 20px #B01E68;
-    transition: box-shadow 0.3s ease;
-    background-color: #F0DBAF;
-    width: 80%;
-    padding: 15px;
-    margin: 10px;
-}
-
-button:hover {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-
-.btn-text {
-    padding: 5%;
-    margin: 10%;
-}
-
-/* FOOTER */
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-}
-
-.f-text {
-    width: 80%;
-    padding: 10px;
-    text-align: center;
-}
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "VT323", monospace;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 20px;
-    color: rgb(90, 3, 3);
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  /* Body Styling */
+  body {
     width: 100%;
     height: 100%;
-    background-color: #FFE15D;
+    background-color: #697565;
+    color: #2c2e23;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-img {
+  }
+  
+  /* Image Styling */
+  img {
     width: 100px;
     height: auto;
     padding: 10px;
     text-align: center;
-}
-
-a {
+  }
+  
+  /* Links Styling */
+  a {
     text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: rgb(92, 5, 5);
-}
-
-/* HEADER */
-.header {
+    color: #718671;
+  }
+  
+  a:hover {
+    color: #b8b5b0
+  }
+  .circular-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Ensure width and height are the same for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image scales nicely inside the circle */
+    border: 2px solid #3C3D37; /* Optional: Add a border */
+  }
+  
+  
+  /* Header Section */
+  .header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,17 +59,16 @@ a:hover {
     padding: 20px;
     width: 100%;
     max-width: 800px;
-}
-
-.username {
+  }
+  
+  .username {
     font-weight: bold;
     width: 50%;
-    color: #B01E68;
     padding: 10px;
     text-align: center;
-}
-
-.userintro {
+  }
+  
+  .userintro {
     padding-top: 3%;
     width: 80%;
     max-width: 800px;
@@ -214,31 +76,30 @@ a:hover {
     justify-content: center;
     margin: 10px auto;
     text-align: center;
-}
-
-.socials {
+  }
+  
+  .socials {
     padding: 10px;
     margin: 10px;
-    color: #F49D1A;
-}
-
-.links {
+  }
+  
+  .links {
     font-size: 26px;
     padding: 5px;
     margin: 1px;
-}
-
-i {
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-i:hover {
-    color: #B01E68;
+  }
+  
+  i {
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  i:hover {
+    color: #b01e68;
     transform: translateY(-4px);
-}
-
-/* MAIN */
-main {
+  }
+  
+  /* Main Section */
+  main {
     width: 70%;
     border-radius: 20px;
     margin: 5%;
@@ -249,15 +110,9 @@ main {
     text-align: center;
     justify-content: center;
     align-items: center;
-}
-
-.btns,
-.header {
-    width: 90%;
-    margin: 0 5%;
-}
-
-.btns {
+  }
+  
+  .btns {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,30 +120,30 @@ main {
     margin: 0 auto;
     padding: 10px;
     width: 80%;
-}
-
-button {
-    border: 1px solid #B01E68;
-    border-radius: 10px;
-    box-shadow: 0 12px 20px #B01E68;
+  }
+  
+  button {
+    border: 1.5px solid #313131;
+    border-radius: 12px;
+    box-shadow: 0 12px 20px #252525;
     transition: box-shadow 0.3s ease;
-    background-color: #F0DBAF;
+    background-color: #3c3d37;
     width: 90%;
     padding: 15px;
     margin: 10px 0;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-
-.btn-text {
+  }
+  
+  .btn-text {
     padding: 5px;
     margin: 5px;
-}
-
-/* FOOTER */
-.footer {
+  }
+  
+  /* Footer Section */
+  .footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -297,70 +152,77 @@ button:hover {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #FFE15D;
-}
-
-.f-text {
+  }
+  
+  .f-text {
     font-size: 19px;
     width: 80%;
     padding: 10px;
     text-align: center;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
     * {
-        font-size: 22.5px;
+      font-size: 22.5px;
     }
     body {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
     }
-
+  
     main {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 7% 0;
-        padding: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 7% 0;
+      padding: 10px;
     }
-
-    .header, .btns {
-        width: 100%;
-        max-width: 400px;
-        margin: 10px auto;
-        padding: 10px;
+  
+    .header,
+    .btns {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px auto;
+      padding: 10px;
     }
-
-    .username, .userintro, .f-text {
-        width: 100%;
-        padding: 10px;
-        text-align: center;
+  
+    .username,
+    .userintro,
+    .f-text {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
     }
-
+  
     .userintro {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-
+  
     button {
-        width: 100%;
-        max-width: 300px;
-        padding: 15px;
-        margin: 10px auto;
+      width: 100%;
+      max-width: 300px;
+      padding: 15px;
+      margin: 10px auto;
     }
-    .btn-text, .links {
-        width: 100%;padding: auto;margin: auto;
+  
+    .btn-text,
+    .links {
+      width: 100%;
+      padding: auto;
+      margin: auto;
     }
-
+  
     .footer {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        margin-top: auto;
-        padding: 15px 10px;
-        width: 100%;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      margin-top: auto;
+      padding: 15px 10px;
+      width: 100%;
     }
-}
+  }
+  
